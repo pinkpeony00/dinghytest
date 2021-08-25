@@ -1,0 +1,16 @@
+{
+  "application": "helloworldapp",
+  "pipelines": [
+    {
+      "application": "helloworldapp",
+      "name": "dinghy-pipe",
+      "stages": [
+        {
+          "name": "one",
+          "type": "wait",
+          "waitTIme": 10
+        }
+      ]
+    }
+  ]
+}
